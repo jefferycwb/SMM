@@ -11,9 +11,15 @@ You can find the presentation made for the workshop here: http://rpubs.com/olgam
 
 ### R Scripts
 
+#### Case studies
+
 stmomo.R contains the code used to create charts, fit the models and project the mortality tables.
 
 Case studies files contain exercises for participants. Answers are placed in the files with the same name, but _answer added.
+
+#### Presentation
+
+Ioslides (Rmarkdown) presentation source files.
 
 ### Data 
 
