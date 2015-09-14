@@ -21,6 +21,8 @@ Case studies files contain exercises for participants. Answers are placed in the
 
 Ioslides (Rmarkdown) presentation source files.
 
+default.html is the io template with company branding and logo properly shown.
+
 ### Data 
 
 Data can be downloaded from the Human Mortality Database using *demography* package. Own credentials are required.
