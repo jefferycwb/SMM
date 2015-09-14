@@ -1,9 +1,8 @@
-﻿# SMM
-# R in Insurance Use of Stochastic Mortality Models 
+# R in Insurance - Use of Stochastic Mortality Models 
 
-## Actuarial Summer School 2015
+## Actuarial Summer School Slovakia 2015
 
-This repository contains education materials and case studies using *StMoMo* Package.
+This repository contains education materials and case studies using **StMoMo** Package.
 
 ### Presentation
 
@@ -21,10 +20,12 @@ Case studies files contain exercises for participants. Answers are placed in the
 
 Ioslides (Rmarkdown) presentation source files.
 
-default.html is the io template with company branding and logo properly shown.
+default.html is the ioslides template with company branding and logo properly shown.
+
+In order to render the .Rmd file you need **Rmarkdown** and **knitr** installed.
 
 ### Data 
 
-Data can be downloaded from the Human Mortality Database using *demography* package. Own credentials are required.
+Data can be downloaded from the Human Mortality Database using **demography** package. Own credentials are required.
 For the purpose of the workshop R object skDemo.RData was created.
 
