@@ -2,7 +2,7 @@
 
 ## Actuarial Summer School Slovakia 2015
 
-This repository contains education materials and case studies using *StMoMo* Package.
+This repository contains education materials and case studies using **StMoMo** Package.
 
 ### Presentation
 
