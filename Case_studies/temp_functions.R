@@ -62,9 +62,9 @@ kannistoExtrapolation = function(qx, ages, years, max_age=120, nObs=15){
 
 DFcashflow = function(qxt, ageStart, omegaAge, pensionAge, valyear, ir, type = 1){
   if (type == 1){
-    CF <- c(rep(0,max(0,(pensionAge-ageStart+1))), rep(1,(omegaAge-max(pensionAge, ageStart))))
+    CF <- c(rep(0,max(0,(pensionAge-ageStart+1))), rep(1,(omegaAge-max(pensionAge, ageStart-1))))
   }else{
-    CF <- c(rep(1,max(0,(pensionAge-ageStart+1))), rep(0,(omegaAge-max(pensionAge, ageStart))))
+    CF <- c(rep(1,max(0,(pensionAge-ageStart+1))), rep(0,(omegaAge-max(pensionAge, ageStart-1))))
   }
   
   t_start <- which(colnames(qxt) == toString(valyear))
